@@ -9,9 +9,9 @@ public class ExpresionRegular {
 		
 		String dniRegex = "^[0-9]{8}[TRWAGMYFPDXBNJZSQVHLCKE]?$";
 		String movilRegex = "^(\\+?34)?[67][\\d]{8}$";
-		String decimalRegex ="";
+		
 		//esValido(leerToken(), dniRegex);
-		//esValido(leerToken(), movilRegex);
+		esValido(leerToken(), movilRegex);
 		
 	
 	}
