@@ -31,7 +31,7 @@ public class AuxiliarTarjetaCredito {
 		System.out.println(suma);*/
 		int suma = 0;
 		for (int i = 0; i < numeroTarjetaFinal.length() - 1; i++) {
-			int numero = numeroTarjetaFinal.charAt(i) -48;
+			int numero = numeroTarjetaFinal.charAt(i) - 48;
 			if ( i % 2 != 0) {
 				numero *= 2;
 			}
@@ -47,12 +47,5 @@ public class AuxiliarTarjetaCredito {
 		System.out.printf("Tarjeta %s ¿válida? %b%n", numeroTarjetaFinal,
 				numeroTarjetaFinal.substring(numeroTarjetaFinal.length() -1)
 				.equals(ultimoNumero));
-		
-		
-		
-		
-		
-		
 	}
-
 }
